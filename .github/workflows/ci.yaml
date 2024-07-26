@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-20.04 # most compatible with debian 11
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Mount bazel caches
         uses: actions/cache@v3
         with:
@@ -46,7 +46,7 @@ jobs:
     runs-on: ubuntu-20.04 # most compatible with debian 11
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Mount bazel caches
         uses: actions/cache@v3
         with:
